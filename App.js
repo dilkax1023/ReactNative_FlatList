@@ -25,12 +25,6 @@ const App = () => {
 		setCountries(data);
 	};
 
-	// const renderItem = ({ country }) => (
-	// 	<Text style={styles.title}>
-	// 		{country.name} - {country.capital}
-	// 	</Text>
-	// );
-
 	return (
 		<SafeAreaView style={styles.container}>
 			<Text style={styles.h1}>Country - Capital</Text>
